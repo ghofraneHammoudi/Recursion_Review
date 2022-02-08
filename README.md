@@ -10,7 +10,7 @@ All recursive algorithms must have the following:
 
 **Recursive** algorithms       |
 -------------------------------|
-1- Base Case (when to stop)   |
+1- Base Case (when to stop)    |
 2- Work toward Base Case       |
 3- Recursive Call (call itself)|
 
@@ -37,7 +37,7 @@ var Succeed = function(steps){
   else{
     console.log('steps before success:', steps);
     console.log('now doing', steps.pop());
-      Succeed(steps);
+    Succeed(steps);
   }
 }
 ```
