@@ -1,6 +1,11 @@
+# Recursion review
+
+
 Recursion is the process of defining a problem (or the solution to a problem) in terms of (a simpler version of) itself.
 
-** Parts of a Recursive Algorithm
+**Parts of a Recursive Algorithm**
+
+
 All recursive algorithms must have the following:
 
 **Recursive** algorithms       |
