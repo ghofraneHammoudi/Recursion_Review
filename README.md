@@ -3,11 +3,11 @@ Recursion is the process of defining a problem (or the solution to a problem) in
 ** Parts of a Recursive Algorithm
 All recursive algorithms must have the following:
 
-1. Base Case (when to stop)
-
-2. Work toward Base Case
-
-3. Recursive Call (call itself)
+**Recursive** algorithms       |
+-------------------------------|
+1- Base Case (when to stop)   |
+2- Work toward Base Case       |
+3- Recursive Call (call itself)|
 
 For example, we can define the operation "Being a developer in RBK" as:
 
@@ -18,14 +18,13 @@ For example, we can define the operation "Being a developer in RBK" as:
 - "Succeed all phases ".
 
 Here the solution to being a developer in RBK is three steps (three steps).
-- First, we don't have anymore phases if we completed all of them.
-- Secondly, we do a very simple action that makes our situation simpler to solve (Pass a phase) .
-- Finally, we redo the entire algorithm.
-
+1. First, we don't have anymore phases if we completed all of them.
+2. Second, we do a very simple action that makes our situation simpler to solve (Pass a phase) .
+3. Finally, we redo the entire algorithm.
 
 Consider the following function:
 
-
+```js
 var Succeed = function(steps){
   if(!steps.length){
         console.log('Now I am a full stack javascript developer!');
@@ -36,7 +35,7 @@ var Succeed = function(steps){
       Succeed(steps);
   }
 }
-
+```
 ===> Which produces this output:
 
 Succeed(['SENIOR phase','JUNOIR phase','BOOTSTRAP'])
